@@ -1,0 +1,55 @@
+/**************************
+NAVBAR
+**************************/
+.home-nav {
+  background-color: transparent;
+}
+
+.light-links {
+  color: white  !important;
+  font-weight: 500;
+}
+
+.light-links:hover{
+  color: #cccccc !important;
+}
+
+.navbar {
+  padding-top: 1.5em;
+}
+
+
+
+/**************************
+PAGE: HOMEPAGE
+**************************/
+
+/* hero image */
+html, body, #heroimage{
+  width:100%;
+  height:100%;
+}
+
+#heroimage{
+  background:url('../img/hero-home.jpg') center center;
+  background-size:cover;
+}
+
+.jumbotron {
+  background-color: transparent;
+  vertical-align: middle !important;
+}
+
+.text-hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding-left: 15%
+}
+
+.text-hero h1 {
+  color: white;
+}
+
+
+/* typography */
