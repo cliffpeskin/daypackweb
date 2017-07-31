@@ -50,11 +50,18 @@ html, body, #heroimage{
 .hero-multi h1 {
   color: white;
   font-weight: 400
+  text-align: center;
 }
 
 .hero-multi p, .lead {
   color: white;
   font-weight: 300;
+  text-align: center;
+}
+
+.hero-multi {
+  width: 50%;
+  margin: 0 auto;
 }
 
 
