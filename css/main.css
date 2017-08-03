@@ -18,6 +18,32 @@ NAVBAR
   padding-top: 1.5em;
 }
 
+.container .navbar .show .navbar-nav {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.container .navbar .collapsing .navbar-nav {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  cursor: pointer;
+}
+
+#heroimage > div:nth-child(1) > nav > button {
+  cursor: pointer;
+}
+
+#heroimage > div:nth-child(1) > nav > a {
+  cursor: default;
+}
+
+#heroimage > div:nth-child(1) > nav > a > img {
+  cursor: pointer;
+}
+
 
 
 /**************************
@@ -63,14 +89,6 @@ html, body, #heroimage{
   width: 50%;
   margin: 0 auto;
 }
-
-.custom-toggler.navbar-toggler {
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
 
 
 
