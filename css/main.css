@@ -67,7 +67,7 @@ html, body, #heroimage{
 }
 
 .text-hero {
-  height: 85vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   padding: .5rem 1rem;
