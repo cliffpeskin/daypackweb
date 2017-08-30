@@ -32,15 +32,15 @@ NAVBAR
   cursor: pointer;
 }
 
-#heroimage > div:nth-child(1) > nav > button {
+#heroimage > nav > button {
   cursor: pointer;
 }
 
-#heroimage > div:nth-child(1) > nav > a {
+#heroimage > nav > a {
   cursor: default;
 }
 
-#heroimage > div:nth-child(1) > nav > a > img {
+#heroimage > nav > a > img {
   cursor: pointer;
 }
 
@@ -59,11 +59,6 @@ html, body, #heroimage{
 #heroimage{
   background:url('../img/hero-home.jpg') center center;
   background-size:cover;
-}
-
-.jumbotron {
-  background-color: transparent;
-  vertical-align: middle !important;
 }
 
 .text-hero {
@@ -90,6 +85,5 @@ html, body, #heroimage{
   margin: 0 auto;
 }
 
-
-
-/* typography */
+/*  */
+html, body, #dp-intro{
