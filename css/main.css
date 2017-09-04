@@ -1,4 +1,38 @@
 /**************************
+GENERAL
+**************************/
+a {
+  padding-top: none;
+}
+
+@media (max-width: 992px) {
+#homecard2 .hide-medium {
+    display: none;
+  }
+}
+
+
+
+/**************************
+TYPOGRAPHY
+**************************/
+h1, h2, h3, h4, h5, h6 {
+color: #434A54;
+}
+
+.p-standard {
+  color: #6C6F73;
+  font-size: 1rem;
+  font-weight: 300
+}
+
+.p-standard-18 {
+  color: #6C6F73;
+  font-size: 1.15rem;
+  font-weight: 300
+}
+
+/**************************
 NAVBAR
 **************************/
 .home-nav {
@@ -85,6 +119,8 @@ html, body, #heroimage{
   margin: 0 auto;
 }
 
+/* Homepage: Card 2 */
+
 #homecard2 {
   padding-top: 60px;
 }
@@ -98,5 +134,26 @@ html, body, #heroimage{
 @media (min-width: 768px) {
   #homecard2 {
     padding-bottom: 0;
+  }
+}
+
+#homecard2 p {
+  color: #6C6F73;
+}
+
+#homecard2 > div > div.col-6 > div:nth-child(2) > div:nth-child(1) {
+  padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  #homecard2 img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #homecard2 .col-6  {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
