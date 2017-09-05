@@ -178,3 +178,7 @@ html, body, #heroimage{
     max-width: 100%;
   }
 }
+
+.testimonials-background {
+  background-color: #262F36;
+}
