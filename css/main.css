@@ -179,6 +179,14 @@ html, body, #heroimage{
   }
 }
 
-.testimonials-background {
+.testimonials {
   background-color: #262F36;
+}
+
+.testimonials h2 {
+  color: white;
+}
+
+.testimonials p {
+  color: white;
 }
