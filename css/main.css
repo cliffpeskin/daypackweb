@@ -170,6 +170,9 @@ html, body, #heroimage{
   #homecard2 img {
     display: none;
   }
+  #homecard2 {
+    padding-bottom: 60px
+  }
 }
 
 @media (max-width: 768px) {
@@ -179,14 +182,24 @@ html, body, #heroimage{
   }
 }
 
+@media (min-width: 768px) {
+  .testimonials .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
 .testimonials {
   background-color: #262F36;
 }
 
 .testimonials h2 {
   color: white;
+  font-weight: 400;
 }
 
 .testimonials p {
-  color: white;
+  color: #D2D2D2;
+  font-size: 1.1rem;
+
 }
