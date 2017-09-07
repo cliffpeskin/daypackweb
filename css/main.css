@@ -201,5 +201,17 @@ html, body, #heroimage{
 .testimonials p {
   color: #D2D2D2;
   font-size: 1.1rem;
+}
 
+@media (max-width: 768px) {
+  .testimonials h2 {
+    font-size: 1.32rem;
+  }
+  .testimonials p {
+    font-size: .726rem;
+  }
+  .testimonials h2 .pl-5, .pr-5 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
