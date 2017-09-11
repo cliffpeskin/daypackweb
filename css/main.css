@@ -215,3 +215,13 @@ html, body, #heroimage{
     padding-right: 0 !important;
   }
 }
+
+/* Homepage: Card 4 (Features) */
+
+.features i {
+  color: #5D9BEB;
+}
+
+.ml-62 {
+  margin-left: 62px
+}
