@@ -222,6 +222,9 @@ html, body, #heroimage{
   color: #5D9BEB;
 }
 
-.ml-62 {
-  margin-left: 62px
+@media (min-width: 540px) {
+.feature-box {
+  max-width: 480px;
+  min-width: 480px;
+  }
 }
