@@ -228,3 +228,34 @@ html, body, #heroimage{
   min-width: 480px;
   }
 }
+
+/* Footer */
+.footer {
+  background-color: #FAFAFA;
+  border-top: #e1e1e1 1px solid;
+}
+
+.footer a {
+  color: #6C6F73;
+}
+
+@media screen and (min-width: 768px) {
+.acsl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 460px;
+  margin: 0 auto 0px auto;
+  list-style: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+.acsl {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 0;
+  line-height: 40px;
+  }
+}
