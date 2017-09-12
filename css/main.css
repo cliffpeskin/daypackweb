@@ -222,7 +222,7 @@ html, body, #heroimage{
   color: #5D9BEB;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 992px) {
 .feature-box {
   max-width: 480px;
   min-width: 480px;
