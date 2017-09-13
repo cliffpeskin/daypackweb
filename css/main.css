@@ -48,6 +48,17 @@ NAVBAR
   color: #cccccc !important;
 }
 
+.dark-links {
+  color: #6C6F73 !important;
+  font-weight: 400;
+}
+
+.dark-links:hover {
+    color: #151617 !important;
+    font-weight: 400;
+  }
+
+
 .navbar {
   padding-top: 1.5em;
 }
@@ -259,3 +270,7 @@ html, body, #heroimage{
   line-height: 40px;
   }
 }
+
+/**************************
+ABOUT
+**************************/
