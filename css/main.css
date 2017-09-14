@@ -32,6 +32,13 @@ color: #434A54;
   font-weight: 300
 }
 
+.p-standard-20 {
+  color: #95989A;
+  font-size: 1.15rem;
+  font-weight: 400
+
+}
+
 /**************************
 NAVBAR
 **************************/
@@ -49,18 +56,29 @@ NAVBAR
 }
 
 .dark-links {
-  color: #6C6F73 !important;
+  color: #9498a6 !important;
   font-weight: 400;
 }
 
 .dark-links:hover {
-    color: #151617 !important;
+    color: #434A54 !important;
     font-weight: 400;
   }
+
+.selected {
+  color: #434A54 !important;
+  font-weight: 500;
+}
+
+.selected:hover {
+  color: #434A54 !important;
+  font-weight: 500;
+}
 
 
 .navbar {
   padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .container .navbar .show .navbar-nav {
@@ -274,3 +292,13 @@ html, body, #heroimage{
 /**************************
 ABOUT
 **************************/
+
+.banner-top {
+  background-color: #FAFAFA;
+  border-top: #e1e1e1 1px solid;
+  border-bottom: #e1e1e1 1px solid;
+}
+
+.banner-top p {
+  margin-bottom: 0;
+}
