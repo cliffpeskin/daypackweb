@@ -302,3 +302,11 @@ ABOUT
 .banner-top p {
   margin-bottom: 0;
 }
+
+.contact-icons i {
+  color: #95989A;
+}
+
+.align-mid {
+  vertical-align: middle !important;
+}
