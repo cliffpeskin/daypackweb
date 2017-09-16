@@ -20,6 +20,14 @@ h1, h2, h3, h4, h5, h6 {
 color: #434A54;
 }
 
+.h2-white {
+font-size: 1.80rem;
+  color: white;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
 .p-standard {
   color: #6C6F73;
   font-size: 1rem;
@@ -36,7 +44,11 @@ color: #434A54;
   color: #95989A;
   font-size: 1.15rem;
   font-weight: 400
+}
 
+.h3-soft {
+  font-size: 1.50rem;
+  font-weight: 400
 }
 
 /**************************
@@ -307,6 +319,22 @@ ABOUT
   color: #95989A;
 }
 
-.align-mid {
-  vertical-align: middle !important;
+.contact-form {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E1E1E1;
+  border-radius: 0px 0px 6px 6px;
+  padding: 3.75rem;
+  margin-bottom: 100px;
+}
+
+.form-head {
+  border-style: solid;
+  border-width: 1px 1px 0px 1px;
+  border-color: #E1E1E1;
+  background-color: #5D9BEB;
+  border-radius: 6px 6px 0px 0px;
+  height: 80px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
