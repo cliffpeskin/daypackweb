@@ -286,7 +286,7 @@ html, body, #heroimage{
   align-items: center;
   justify-content: space-between;
   width: 460px;
-  margin: 0 auto 0px auto;
+  margin: auto;
   list-style: none;
   }
 }
@@ -324,7 +324,7 @@ ABOUT
   border-width: 1px;
   border-color: #E1E1E1;
   border-radius: 0px 0px 6px 6px;
-  padding: 3.75rem;
+  padding: 3rem 3.75rem 3.75rem 3.75rem;
   margin-bottom: 100px;
 }
 
@@ -337,4 +337,10 @@ ABOUT
   height: 80px;
   padding-top: 22px;
   padding-bottom: 22px;
+}
+
+.btn-primary {
+  background-color: #5D9BEB;
+  border-color: #5D9BEB;
+
 }
