@@ -65,6 +65,12 @@ font-size: 1.80rem;
 /**************************
 NAVBAR
 **************************/
+@media (min-width: 992px) {
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: .70rem;
+    padding-left: .70rem;
+  }
+}
 
 .home-nav {
   background-color: transparent;
