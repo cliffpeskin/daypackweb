@@ -20,6 +20,17 @@ h1, h2, h3, h4, h5, h6 {
 color: #434A54;
 }
 
+.h2-blue {
+  color: #4A7CBC;
+  font-size: 1.75rem;
+}
+
+.p-blue {
+  color: #4A7CBC;
+  font-size: 1.15rem;
+
+}
+
 .h2-white {
 font-size: 1.80rem;
   color: white;
@@ -343,5 +354,9 @@ ABOUT
   background-color: #5D9BEB;
   border-color: #5D9BEB;
   cursor: pointer;
+}
 
+.form-sent {
+  border-radius: 10px;
+  background-color: #DEEBFB
 }
