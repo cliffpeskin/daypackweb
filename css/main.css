@@ -51,6 +51,11 @@ font-size: 1.80rem;
   font-weight: 300
 }
 
+.p-standard-22 {  
+  font-size: 1.25rem;
+  font-weight: 400
+}
+
 .p-standard-20 {
   color: #95989A;
   font-size: 1.15rem;
