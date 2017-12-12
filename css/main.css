@@ -387,5 +387,40 @@ Marketplace
 **************************/
 
 .card-deck > .card {
-  max-width: 300px
+  max-width: 300px;
+  min-width: 250px;
+}
+
+@media screen and (max-width: 992px) {
+.card-deck > .card {
+  max-width: 300px;
+  min-width: 200px;
+  }
+}
+
+.card-deck {
+position: absolute;
+}
+
+@media screen and (min-width: 992px) {
+.card-deck {
+padding-left: 15%;
+padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+.card-deck {
+padding-left: 7.5%;
+padding-right: 0;
+  }
+}
+
+.card-deck > .card {
+  margin-left: 0px !important;
+  margin-right: 30px !important;
+}
+
+.card-deck > .card {
+  margin-bottom: 30px !important;
 }
