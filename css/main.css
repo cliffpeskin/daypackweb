@@ -380,3 +380,12 @@ ABOUT
   border-radius: 10px;
   background-color: #DEEBFB
 }
+
+
+/**************************
+Marketplace
+**************************/
+
+.card-deck > .card {
+  max-width: 300px
+}
