@@ -386,21 +386,20 @@ ABOUT
 Marketplace
 **************************/
 
-.card {
-  width: 500px !important;
-}
-
-@media screen (max-width: 992px) {
 .card-deck > .card {
-  width: 200px;
+  max-width: 300px;
+  min-width: 250px;
+}
+
+@media screen and (max-width: 992px) {
+.card-deck > .card {
+  max-width: 300px;
+  min-width: 200px;
   }
 }
 
-@media screen and (min-width: 750px) {
 .card-deck {
-padding-left: 20%;
-padding-right: 20%;
-  }
+position: absolute;
 }
 
 @media screen and (min-width: 992px) {
@@ -416,10 +415,6 @@ padding-left: 7.5%;
 padding-right: 0;
   }
 }
-
-/**************************
-Marketplace Cards
-**************************/
 
 .card-deck > .card {
   margin-left: 0px !important;
