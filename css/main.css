@@ -408,14 +408,7 @@ background-color: #FAFAFA
   min-width: 298px;
 }
 
-@media screen and (max-width: 768px) {
-.card-deck > .card {
-  max-width: 300px;
-  min-width: 200px;
-  }
-}
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 800px) {
 .card-deck > .card {
   max-width: 300px;
   min-width: 200px;
