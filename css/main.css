@@ -16,6 +16,10 @@ a {
 /**************************
 TYPOGRAPHY
 **************************/
+.dropdown-item {
+color: #6C6F73
+}
+
 h1, h2, h3, h4, h5, h6 {
 color: #434A54;
 }
@@ -71,6 +75,14 @@ font-size: 1.80rem;
 NAVBAR
 **************************/
 
+.dropdown-toggle::after {
+  margin-left: .1em;
+  border-top: .25em solid;
+  border-left: .25em solid transparent;
+  border-right: .25em solid transparent;
+
+}
+
 @media (min-width: 992px) {
 .navbar-toggleable-md .navbar-nav .nav-link {
     padding-right: .70rem;
@@ -87,7 +99,7 @@ NAVBAR
   font-weight: 500;
 }
 
-.light-links:hover{
+.light-links:hover, .show > .light-links{
   color: #cccccc !important;
 }
 
@@ -110,7 +122,6 @@ NAVBAR
   color: #434A54 !important;
   font-weight: 500;
 }
-
 
 .navbar {
   padding-top: 1.5em;
@@ -414,7 +425,7 @@ background-color: #FAFAFA
   margin-right: 3% !important;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 .card-deck > .card {
 min-width: 47.6%;
 max-width: 47.6%;
@@ -425,7 +436,7 @@ margin-right: 4.7% !important;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 .card-deck > .second-card {
   margin-right: 0px !important;
   }
@@ -434,7 +445,7 @@ margin-right: 4.7% !important;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
 .container-fluid > .card-deck {
   margin: 0px !important;
 }
@@ -445,7 +456,7 @@ margin-right: 4.7% !important;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media (min-width: 769px) {
 .card-deck > .third-card {
   margin-right: 0px !important;
   }
