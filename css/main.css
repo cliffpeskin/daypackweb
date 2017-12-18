@@ -441,6 +441,7 @@ margin-right: 4.7% !important;
 .card-deck > .card {
   margin: auto !important;
   max-width: 298px;
+  margin-bottom: 30px !important;;
   }
 }
 
