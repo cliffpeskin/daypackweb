@@ -75,6 +75,12 @@ font-size: 1.80rem;
 NAVBAR
 **************************/
 
+.dropdown-item:hover {
+  background-color: #ffff;
+  color: #434A54;
+  font-weight: 400;
+}
+
 .dropdown-toggle::after {
   margin-left: .1em;
   border-top: .25em solid;
