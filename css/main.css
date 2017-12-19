@@ -77,7 +77,7 @@ NAVBAR
 
 .dropdown-item:hover {
   background-color: #ffff;
-  color: #434A54;
+  color: #2c3138;
   font-weight: 400;
 }
 
@@ -86,7 +86,7 @@ NAVBAR
   border-top: .25em solid;
   border-left: .25em solid transparent;
   border-right: .25em solid transparent;
-
+  opacity: .80;
 }
 
 @media (min-width: 992px) {
@@ -300,7 +300,7 @@ html, body, #heroimage{
   .testimonials p {
     font-size: .726rem;
   }
-  .testimonials h2 .pl-5, .pr-5 {
+  .testimonials h2 {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -403,6 +403,10 @@ ABOUT
 /**************************
 Marketplace
 **************************/
+.card-deck > a {
+  text-decoration: none;
+}
+
 .card-title {
   margin-bottom: 1.25rem;
 }
@@ -467,3 +471,7 @@ margin-right: 4.7% !important;
   margin-right: 0px !important;
   }
 }
+
+/**************************
+Company Pages
+**************************/
