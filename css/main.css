@@ -49,6 +49,12 @@ font-size: 1.80rem;
   font-weight: 300
 }
 
+.p-standard-bold {
+  color: #6C6F73;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 .p-standard-18 {
   color: #6C6F73;
   font-size: 1.15rem;
@@ -403,6 +409,10 @@ ABOUT
 /**************************
 Marketplace
 **************************/
+.fa-hand-peace-o {
+  color: #007CF1;
+  align-items: auto;
+}
 .card-deck > a {
   text-decoration: none;
 }
