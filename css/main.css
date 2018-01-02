@@ -409,9 +409,19 @@ ABOUT
 /**************************
 Marketplace
 **************************/
+@media (max-width: 418px){
+  .t-s {
+    font-size: 1.8rem;
+  }
+}
+
+.max-width-500 {
+  max-width: 500px;
+  line-height: 1.4em;
+}
+
 .fa-hand-peace-o {
-  color: #007CF1;
-  align-items: auto;
+  color: #65B0F6;
 }
 .card-deck > a {
   text-decoration: none;
@@ -485,3 +495,7 @@ margin-right: 4.7% !important;
 /**************************
 Company Pages
 **************************/
+
+.blue {
+  color: #5D9BEB;
+}
