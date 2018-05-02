@@ -105,15 +105,6 @@ NAVBAR
   }
 }
 
-.home-nav {
-  background-color: transparent;
-}
-
-.light-links {
-  color: white  !important;
-  font-weight: 500;
-}
-
 .light-links:hover, .show > .light-links{
   color: #cccccc !important;
 }
