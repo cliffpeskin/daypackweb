@@ -214,6 +214,13 @@ PAGE: HOMEPAGE
   margin: 0 auto;
 }
 
+/* Customers */
+@media (min-width: 1000px) {
+  .polo {
+    display: none;
+  }
+}
+
 /* Homepage: Card 2 */
 
 #homecard2 {
@@ -222,7 +229,7 @@ PAGE: HOMEPAGE
   padding-right: 15px;
 }
 
-@media screen and (min-width: 576px) {
+@media (min-width: 576px) {
   #homecard2 {
     padding-top: 100px;
   }
