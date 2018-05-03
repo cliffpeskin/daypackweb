@@ -164,7 +164,6 @@ PAGE: HOMEPAGE
 **************************/
 
 /* hero image */
-
 #heroimage{
   background:url('../img/hero-home.png') center center;
   background-size:cover;
@@ -212,13 +211,6 @@ PAGE: HOMEPAGE
 .hero-multi {
   width: 100%;
   margin: 0 auto;
-}
-
-/* Customers */
-@media (min-width: 1000px) {
-  .polo {
-    display: none;
-  }
 }
 
 /* Homepage: Card 2 */
