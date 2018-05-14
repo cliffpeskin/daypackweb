@@ -214,13 +214,6 @@ PAGE: HOMEPAGE
 }
 
 /* Homepage: Customers */
-@media (max-width: 576px) {
-  .bw {
-    display: block;
-    width: 50%;
-    height: auto;
-  }
-}
 
 /* Homepage: Card 2 */
 
