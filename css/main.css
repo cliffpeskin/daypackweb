@@ -167,7 +167,6 @@ PAGE: HOMEPAGE
 #heroimage{
   background:url('../img/hero-home.png') center center;
   background-size:cover;
-  margin-top: 70px;
 }
 
 .logo-lg {
