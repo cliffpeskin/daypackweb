@@ -84,7 +84,7 @@ NAVBAR
 }
 
 .dropdown-item:hover {
-  background-color: #ffff;
+  background-color: #ffff; /* overides bootstrap hover background*/
   color: #2c3138;
   font-weight: 400;
 }
