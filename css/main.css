@@ -110,6 +110,10 @@ NAVBAR
   }
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
 .dark-links {
   color: #9498a6 !important;
   font-weight: 400;
@@ -328,7 +332,6 @@ ABOUT
 
 .banner-top {
   background-color: #FAFAFA;
-  border-top: #e1e1e1 1px solid;
   border-bottom: #e1e1e1 1px solid;
 }
 
@@ -381,6 +384,7 @@ Marketplace
   }
 }
 
+/* we can do more together*/
 .max-width-500 {
   max-width: 500px;
   line-height: 1.4em;
@@ -403,7 +407,7 @@ Marketplace
 }
 
 .card-block {
-background-color: #FAFAFA
+background-color: #white;
 }
 
 .container-fluid {
@@ -414,7 +418,7 @@ background-color: #FAFAFA
 
 .card-deck > .card {
   margin-bottom: 30px;
-  box-shadow: 1px 3px 6px #E1E1E1;
+  box-shadow: 1px 2px 4px #E1E1E1;
   margin-left: 0px !important;
   min-width: 31.2%;
   max-width: 31.2%;
