@@ -16,21 +16,21 @@
     <!-- End of Woopra Code -->
 
     <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '134707404035049');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=134707404035049&ev=PageView&noscript=1"
-/></noscript>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '134707404035049');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=134707404035049&ev=PageView&noscript=1"
+    /></noscript>
 <!-- End Facebook Pixel Code -->
 
 
@@ -50,49 +50,14 @@
     <title> Daypack </title>
     <link rel="shortcut icon" type="image/x-icon" href="https://app.daypack.co/images/favicon.ico">
     <link rel="icon" type="image/ico" href="https://app.daypack.co/images/favicon.ico">
+
   </head>
 
   <!-- Body -->
   <body>
 
     <!-- navbar -->
-
-    <body>
-      <nav class="navbar sticky-top navbar-expand-sm navbar-light pt-3 pb-3">
-        <div class="container">
-          <a class="navbar-brand pt-0" href="index.html">
-            <img style="height: 30px;" src="./img/logo-sm-bl.svg" alt="daypack logo">
-            <img style="height: 25px;" class="logo-lg" src="./img/logo-word-bl.svg" alt="daypack logo">
-          </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse justify-content-end mt-2 mt-sm-0" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link n-standard mr-3" href="about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link n-standard mr-3" id="navbarDropdown" data-toggle="dropdown">
-                  Product
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#features">Features</a>
-                  <a class="dropdown-item" href="marketplace.html">Integrations</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link n-standard mr-3" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link n-standard mr-3" href="https://app.daypack.co/">Login</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div w3-include-html="navbar.html"></div>
 
     <!-- hero -->
     <div id="heroimage">
@@ -293,8 +258,8 @@
         </div>
       </div>
     </div>
-
-
+    <script src="./js/main.js"></script>
+    <script>includeHTML();</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
