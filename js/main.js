@@ -25,4 +25,4 @@ function includeHTML() {
     }
   }
 }
-    <script>includeHTML();</script>
+    
