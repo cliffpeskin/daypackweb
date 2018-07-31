@@ -54,10 +54,10 @@
   </head>
 
   <!-- Body -->
-    <body>
+<body data-spy="scroll" data-target="#sub-nav" data-offset="0">
 
   <!-- navbar -->
-      <nav class="navbar sticky-top navbar-expand-sm navbar-light pt-3 pb-3">
+      <nav class="navbar-primary navbar navbar-expand-sm navbar-light pt-3 pb-3">
         <div class="container">
           <a class="navbar-brand pt-0" href="index.html">
             <img style="height: 30px;" src="./img/logo-sm-bl.svg" alt="daypack logo">
@@ -93,51 +93,82 @@
     </div>
   </nav>
 
-    <div class="banner-top mb-5">
-      <h2 class="text-center pt-5 pb-2">About Us</h2>
-      <p class="text-center pb-5 p-standard-20">We are a dedicated team of designers, coders, and real estate fanatics.</p>
-
-
+<!--sub-navbar-->
+<nav id="sub-nav" class="sub-navbar navbar sticky-top navbar-expand navbar-light pt-1 pb-1">
+  <div class="container">
+    <div class="mt-2 mt-sm-0 justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link n-secondary mr-4" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link n-secondary mr-4" href="#careers">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link n-secondary mr-3" href="#footer">Contact</a>
+        </li>
+      </ul>
     </div>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-5">
-          <img src="./img/team-photo.png" class="img-fluid rounded mx-auto d-block mb-5" alt="Daypack Team">
-        </div>
-        <div class="col-lg-6">
-          <p class="mb-5"> The idea for Daypack was spawned within the offices of BuzzBuzzHome in 2014. While working on improving our data set of new construction homes we realized that acquiring digital listing feeds would be easier if builders were using sales and inventory management software.<br><br>So, we set out to build this software and called it Daypack. We consulted with many different builders and brokerages about pain points in the new home sales process. And, we studied how different industries were using sales software to increase efficiency and eliminate error.<br><br>In 2017, we launched Daypack and the reviews were ecstatic. Builders, developers and brokers loved the software. They told us it made their sales process simpler; documents were easy to find, deals could be completed in minutes, and real time information was always available.<br><br>Our mission at Daypack is to build the greatest new home sales software imaginable. Come see what we have created. </p>
-        </div>
+  </div>
+</nav>
+
+<!--About Us Card-->
+  <div class="banner-top-about mb-5">
+    <h2 id="about" class="text-center pt-5 pb-2">About Us</h2>
+    <p class="text-center pb-5 p-standard-20">We are a dedicated team of designers, coders, and real estate fanatics.</p>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <img src="./img/team-photo.png" class="img-fluid rounded mx-auto d-block mb-5" alt="Daypack Team">
+      </div>
+      <div class="col-lg-6">
+        <p class="mb-5"> The idea for Daypack was spawned within the offices of BuzzBuzzHome in 2014. While working on improving our data set of new construction homes we realized that acquiring digital listing feeds would be easier if builders were using sales and inventory management software.<br><br>So, we set out to build this software and called it Daypack. We consulted with many different builders and brokerages about pain points in the new home sales process. And, we studied how different industries were using sales software to increase efficiency and eliminate error.<br><br>In 2017, we launched Daypack and the reviews were ecstatic. Builders, developers and brokers loved the software. They told us it made their sales process simpler; documents were easy to find, deals could be completed in minutes, and real time information was always available.<br><br>Our mission at Daypack is to build the greatest new home sales software imaginable. Come see what we have created. </p>
       </div>
     </div>
+  </div>
+
+<!--careers card-->
+  <div class="pb-5 pt-3 mt-5" id="card-bottom">
+    <div class="container">
+      <h2 id="careers" class="text-center pt-5 pb-2">Careers</h2>
+      <p class="text-center mb-5 pb-3 ml-3 mr-3">At Daypack we are reimagining real estate. We believe that buying a new home should be as easy as buying a pair of sneakers (well almost as easy). Our team is small, agile and growing.  If you are a creative individual, enthusiastic about tech and keen on real estate we'd love to hear from you.</p>
+      <div class="list-group mb-5 ml-5 mr-5">
+        <li href="#" style="background-color: #434A54; border: none;  font-weight: 500; " class="list-group-item list-group-item-action active">Current Openings</li>
+        <a href="https://bbh.bamboohr.com/jobs/view.php?id=21" class="list-group-item list-group-item-action pl-5"><span style="font-weight: 500; color:#5D9BEB;">Director of Sales </span> <span class="float-right pr-5">Toronto Ontario</span></a>
+      </div>
+    </div>
+  </div>
 
     <!-- footer -->
-    <div class="footer">
+    <div style="background-color: #434A54; height: 900px" class="footer">
       <div class="container">
         <ul class="pl-2 pr-2 acsl pt-5 pb-3">
           <li>
-            <a href="about.html">About</a>
+            <a style="color: white;" href="about.html">About</a>
           </li>
           <li>
-            <a href="index.html#features">Features</a>
+            <a style="color: white;" href="index.html#features">Features</a>
           </li>
           <li>
-            <a href="marketplace.html">Integrations</a>
+            <a style="color: white;" href="marketplace.html">Integrations</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a style="color: white;" href="contact.html">Contact</a>
           </li>
           <li>
-            <a href="https://app.daypack.co">Login</a>
+            <a style="color: white;" href="https://app.daypack.co">Login</a>
           </li>
         </ul>
-        <p style="font-size: .80rem;" class="pb-3 mb-0 text-right">&copy; 2015-2018 Daypack</p>
-        </div>
+        <p id="footer" style="color: white; font-size: .80rem;" class="pb-3 mb-0 text-right">&copy; 2015-2018 Daypack</p>
       </div>
     </div>
 
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
   </body>
+
 </html>

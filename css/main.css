@@ -11,6 +11,10 @@ a {
   }
 }
 
+body {
+  position: relative;
+}
+
 /**************************
 TYPOGRAPHY
 **************************/
@@ -25,6 +29,16 @@ color: #434A54;
 .n-standard {
   color: #434A54 !important;
   font-weight: 500;
+}
+
+.n-secondary {
+  color: #FAFAFA !important;
+  font-weight: 400;
+}
+
+.n-secondary.active {
+  color: #FAFAFA !important;
+  font-weight: 600;
 }
 
 .h2-blue {
@@ -84,7 +98,10 @@ font-size: 1.80rem;
 NAVBAR
 **************************/
 
-.navbar {
+.dropdown-menu {
+  z-index: 1030;
+}
+.navbar-primary {
   background-color: white;
   box-shadow: 0px 2px 4px 0px #00000024;
 }
@@ -147,6 +164,14 @@ NAVBAR
 
 #heroimage > nav > a > img {
   cursor: pointer;
+}
+
+/**************************
+SUB-NAVBAR
+**************************/
+
+.sub-navbar {
+  background-color: #505760;
 }
 
 /**************************
@@ -335,8 +360,17 @@ ABOUT
   border-bottom: #e1e1e1 1px solid;
 }
 
+.banner-top-about {
+  border-bottom: #e1e1e1 1px solid;
+}
+
 .banner-top p {
   margin-bottom: 0;
+}
+
+#card-bottom {
+  background-color: #FAFAFA;
+  border-top: #e1e1e1 1px solid;
 }
 
 .contact-icons i {
