@@ -328,7 +328,7 @@ PAGE: HOMEPAGE
   border-top: #e1e1e1 1px solid;
 }
 
-.footer a {
+.footer a,p {
   color: #6C6F73;
 }
 
